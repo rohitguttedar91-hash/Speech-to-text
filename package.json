@@ -1,0 +1,10 @@
+{
+  "name": "indian-speech-to-text-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start:backend": "cd backend && .venv\\Scripts\\activate && python -m uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload",
+    "start:frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build"
+  }
+}
